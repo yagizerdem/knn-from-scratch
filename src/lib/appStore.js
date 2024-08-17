@@ -17,6 +17,7 @@ const state = {
   bounciness: 0.5,
   radius: 10,
   createNewBall: null,
+  predictionPoint: 300,
 };
 const appStore = writable(JSON.parse(JSON.stringify(state)));
 

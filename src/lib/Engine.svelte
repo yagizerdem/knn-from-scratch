@@ -162,7 +162,7 @@ World.add(engine.world, mouseConstraint);
 
 
 function createNewBall({x , y , radius , color}){
-    const bounciness = $appStore.bounciness - Math.random() *0.2
+    const bounciness = $appStore.bounciness - Math.random() *0.02
     const newBall = Matter.Bodies.circle(x, y , radius ,{
     isStatic: false,
     restitution : bounciness,

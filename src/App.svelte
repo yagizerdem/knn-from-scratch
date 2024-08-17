@@ -2,6 +2,7 @@
   import appStore from "./lib/appStore";
   import AdjustBallBounciness from "./lib/Controllers/AdjustBallBounciness.svelte";
   import AdjustBallRadius from "./lib/Controllers/AdjustBallRadius.svelte";
+  import ExecuteKnn from "./lib/Controllers/ExecuteKnn.svelte";
   import ThrowBulk from "./lib/Controllers/ThrowBulk.svelte";
 import Engine from "./lib/Engine.svelte";
   import Header from "./lib/Header.svelte";
@@ -27,7 +28,9 @@ import Engine from "./lib/Engine.svelte";
   <div class="grid-item">
     <AdjustBallBounciness/>
   </div>
-
+  <div class="grid-item">
+    <ExecuteKnn/>
+  </div>
 
 
 </div>
