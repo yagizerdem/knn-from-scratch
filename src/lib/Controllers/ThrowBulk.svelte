@@ -46,7 +46,7 @@
 <style>
 .container{
     width: 200px;
-    height: 240px;
+    height: 340px;
     background-color: gray;
     display: flex;
     flex-direction: column;
